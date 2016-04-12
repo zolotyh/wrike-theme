@@ -1,0 +1,42 @@
+// ------------------------------------------------------------------
+// Shower List
+// ------------------------------------------------------------------
+
+.shower.list {
+
+	@each $scale in 4, 2, 1 {
+		@include scale($scale) {
+			padding-top:$gap / $scale;
+			}
+		}
+
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	background: $blue url(../../images/bg.png) fixed no-repeat right bottom;
+
+	&::after {
+		content: "";
+		top: 2em;
+		right: 2em;
+		position: absolute;
+		display: block;
+		width: 200px;
+		height: 66px;
+		background: url(../../images/logo2.svg) no-repeat top left;
+		background-size: cover;
+	}
+
+	// IE10-11 scrolling fix
+
+	position:absolute;
+	clip:rect(0, auto, auto, 0);
+
+	// Elements
+
+	@import
+		'../caption/caption-list',
+		'../slide/slide-list',
+		'../badge/badge-list';
+
+	}
