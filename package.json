@@ -1,15 +1,15 @@
 {
   "name": "shower-wrike",
   "description": "Ribbon theme for Shower HTML presentation engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "http://pepelsbey.net/"
+    "name": "Alex Zolotykh",
+    "url": "http://zolotykh.com/"
   },
-  "homepage": "https://github.com/shower/ribbon",
+  "homepage": "https://github.com/zolotyh/wrike-theme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/ribbon.git"
+    "url": "https://github.com/zolotyh/wrike-theme"
   },
   "bugs": {
     "url": "http://github.com/shower/shower/issues"
